@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:local="clr-namespace:AppCenterFeatures"
+			 x:Class="AppCenterFeatures.MainPage">
+
+	    <StackLayout Padding="20">
+            <Label Text="Welcome to Xamarin.Forms!" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+            <Button BackgroundColor="Green" TextColor="White" Text="Report Progress" Clicked="OnReportProgress" />
+            <Button BackgroundColor="Red" TextColor="White" Text="Boom!" Clicked="OnCrash" />
+            <Button BackgroundColor="Yellow" Text="Handle Me" Clicked="OnHandledException" />
+
+    </StackLayout>
+
+
+</ContentPage>

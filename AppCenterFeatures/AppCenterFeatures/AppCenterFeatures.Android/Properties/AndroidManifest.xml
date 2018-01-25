@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.AppCenterFeatures">
+	<uses-sdk android:minSdkVersion="15" />
+  <permission android:protectionLevel="signature" android:name="${applicationId}.permission.C2D_MESSAGE" />
+  <uses-permission android:name="${applicationId}.permission.C2D_MESSAGE" />
+	<application android:label="AppCenterFeatures.Android"></application>
+</manifest>
